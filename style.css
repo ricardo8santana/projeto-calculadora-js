@@ -4,11 +4,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 0%, 95%);
 }
 #calculator{
     font-family: 'Arial, sans-serif';
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
+    max-width: 500px;
     overflow: hidden;
 }
 #display{
@@ -18,6 +20,7 @@ body{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 #keys{
     display: grid;
@@ -41,4 +44,13 @@ button:hover{
 }
 button:active{
     background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
 }
